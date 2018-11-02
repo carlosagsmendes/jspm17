@@ -1,0 +1,26 @@
+{
+  "name": "jspm17",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jspm": "^0.17.0-beta.49"
+  },
+  "jspm": {
+    "name": "jspm17",
+    "main": "jspm17.js",
+    "dependencies": {
+      "@profiscience/knockout-contrib-router-plugins-component": "npm:@profiscience/knockout-contrib-router-plugins-component@2.0.0-rc.12"
+    },
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.25"
+    },
+    "peerDependencies": {
+      "@profiscience/knockout-contrib-router": "npm:@profiscience/knockout-contrib-router@2.0.0-rc.10",
+      "fs": "npm:jspm-nodelibs-fs@^0.2.0",
+      "knockout": "npm:knockout@3.5.0-rc2",
+      "path": "npm:jspm-nodelibs-path@^0.2.0",
+      "process": "npm:jspm-nodelibs-process@^0.2.0"
+    }
+  }
+}

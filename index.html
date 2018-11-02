@@ -1,0 +1,15 @@
+<!doctype html>
+<script src="https://cdn.jsdelivr.net/bluebird/3.4.3/bluebird.min.js"></script>
+<script src="jspm_packages/system.js"></script>
+<script src="jspm.config.js"></script>
+<script src="build.js"></script>
+<script>
+    SystemJS.import('src/main.js');
+</script>
+<div id="root">
+    <a data-bind="path: '/'">base</a>
+    <a data-bind="path: '/hello'">Hello</a>
+    <a data-bind="path: '/world'">World</a>
+    <hr />
+    <router></router>
+</div>
